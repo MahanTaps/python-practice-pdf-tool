@@ -1,4 +1,5 @@
 from magic import magic
+import pypdf
 def verify_pdf(document):
     return 'PDF'in magic.from_file(document)
 def first_page_text(document):
